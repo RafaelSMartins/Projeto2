@@ -17,7 +17,7 @@ namespace CraftingSim.View
         public string ShowMainMenu()
         {
             AnsiConsole.MarkupLine("[bold cyan]#     Andre's Forge     #[/]");
-            AnsiConsole.MarkupLine("[italic cyan]If you require smithing, " +
+            AnsiConsole.MarkupLine("[italic cyan]If you require something, " +
                                 "speak to me.[/]\n");
 
             return AnsiConsole.Prompt(
